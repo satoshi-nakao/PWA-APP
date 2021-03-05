@@ -1,65 +1,42 @@
 <template>
-  <v-row justify="center" align="center">
+  <v-row color="primary" justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
-      <div class="text-center">
-        <logo />
-        <vuetify-logo />
-      </div>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
+    <v-card>
+      　<v-card-title class="headline">
+          ようこそこのサイトへ！
         </v-card-title>
         <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
           <p>
-            For more information on Vuetify, check out the <a
-              href="https://vuetifyjs.com"
+            私のコードを載せてます。<a
+              href="https://github.com/satoshi-nakao"
               target="_blank"
               rel="noopener noreferrer"
             >
-              documentation
+              My GitHub
             </a>.
           </p>
           <p>
-            If you have questions, please join the official <a
-              href="https://chat.vuetifyjs.com/"
+            学習用に作成しました。<a
+              href="https://twitter.com/ksQcRkD1DNl98WE"
               target="_blank"
               rel="noopener noreferrer"
-              title="chat"
+              
             >
-              discord
+              twitter
             </a>.
           </p>
           <p>
-            Find a bug? Report it on the github <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
+            街歩き、建築物の写真を載せてます。<a
+              href="https://www.instagram.com/uzisubmachineguhand/"
               target="_blank"
               rel="noopener noreferrer"
               title="contribute"
             >
-              issue board
+              instagram
             </a>.
           </p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt Documentation
-          </a>
-          <br>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt GitHub
-          </a>
+         
+         
         </v-card-text>
         <v-card-actions>
           <v-spacer />
@@ -77,13 +54,20 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
+
 
 export default {
-  components: {
-    Logo,
-    VuetifyLogo
+  data(){
+    return{
+      drawer: false,
+      items: [
+        {name: 'Profile',to: '/profile'},
+        {name: 'Skill',to: '/skill'},
+        {name: 'Works', to: '/works'},
+        {name: 'Want',to: '/want'}
+      ],
+      title: "My Page"
+    }
   }
 }
 </script>
