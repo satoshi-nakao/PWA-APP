@@ -1,16 +1,20 @@
 <template>
   <v-row>
     <v-col class="text-center">
-      <img
-        src="/v.png"
-        alt="Vuetify.js"
-        class="mb-5"
-      >
+      <v-layout justify-center>
+       <v-img 
+       src="/nakano3.jpg"
+       max-height="180"
+       max-width="180"
+       aspect-ratio="1">
+       </v-img>
+      </v-layout>
+      
       <blockquote class="blockquote">
-        &#8220;First, solve the problem. Then, write the code.&#8221;
+        &#8220;見てくださってありがとうございます。&#8221;
         <footer>
           <small>
-            <em>&mdash;John Johnson</em>
+            <em>&mdash;Satoshi Nakao</em>
           </small>
         </footer>
       </blockquote>
