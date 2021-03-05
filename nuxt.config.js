@@ -45,7 +45,7 @@ export default {
       short_name: 'Nuxt PWA',
       display: 'standalone',
       lang: 'ja',
-      start_url: 'index.html',
+      start_url: 'https://naughty-torvalds-fb6f51.netlify.app/profile',
       icons: [
         {
           src: 'icon.png',
