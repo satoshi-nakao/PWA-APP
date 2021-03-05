@@ -45,7 +45,7 @@ export default {
       short_name: 'Nuxt PWA',
       display: 'standalone',
       lang: 'ja',
-      start_url: '',
+      start_url: 'index.html',
       icons: [
         {
           src: 'icon.png',
