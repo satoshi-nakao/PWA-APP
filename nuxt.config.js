@@ -48,7 +48,7 @@ export default {
       start_url: 'https://naughty-torvalds-fb6f51.netlify.app/profile',
       icons: [
         {
-          src: 'icon.png',
+          src: 'favicon.ico',
           size: '512×512',
           type: 'image/png'
         }
