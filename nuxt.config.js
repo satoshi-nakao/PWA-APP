@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/cat-favvicon.png' }
     ]
   },
 
@@ -49,11 +49,10 @@ export default {
       icons: [
         {
           src: '/cat-favvicon.png',
-          size: '512×512',
+          sizes: '512x512',
           type: 'image/png'
         }
       ],
-
     }
   },
 
