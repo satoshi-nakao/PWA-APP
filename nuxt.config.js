@@ -48,7 +48,7 @@ export default {
       start_url: './?utm_source=homescreen',
       icons: [
         {
-          src: '/cat-favvicon.png',
+          src: '/cat.png',
           sizes: '512x512',
           type: 'image/png'
         }
