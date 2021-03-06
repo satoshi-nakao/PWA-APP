@@ -35,7 +35,7 @@ export default {
         {name: 'Profile',to: '/profile'},
         {name: 'Skill',to: '/skill'},
         {name: 'Want',to: '/want'},
-        {name: 'Works', to: '/works'}
+        // {name: 'Works', to: '/works'}
       ],
     }
   }
