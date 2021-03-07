@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/cat-favvicon.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/cat.ico' }
     ]
   },
 
@@ -45,10 +45,10 @@ export default {
       short_name: 'Nuxt PWA',
       display: 'standalone',
       lang: 'ja',
-      start_url: './?utm_source=homescreen',
+      start_url: '',
       icons: [
         {
-          src: '/cat.png',
+          src: '/cat.ico',
           sizes: '512x512',
           type: 'image/png'
         }
