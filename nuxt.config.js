@@ -40,13 +40,13 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
+    icon: false,
     manifest: {
       name: 'pwa化したアプリ',
       short_name: 'Nuxt PWA',
       display: 'standalone',
       lang: 'ja',
       start_url: '',
-      icon: false,
       icons: [
         {
           src: '/cat.ico',
