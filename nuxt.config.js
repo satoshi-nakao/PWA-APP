@@ -46,6 +46,7 @@ export default {
       display: 'standalone',
       lang: 'ja',
       start_url: '',
+      icon: false,
       icons: [
         {
           src: '/cat.ico',
