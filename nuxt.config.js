@@ -21,7 +21,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '~/plugins/moment-filter', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -31,7 +30,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
-    ['@nuxtjs/moment', ['ja']],
+    
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
