@@ -36,13 +36,12 @@
             </a>.
           </p>
          <v-spacer />
-         <v-card>
-        <v-card-text>
-       <div class="container">
+      
+       <p>
         <clock color="#38b508" bg="#fff" size="200px"></clock>
-         </div>
-        </v-card-text>
-      </v-card>
+       </p>
+       
+      
          
         </v-card-text>
         <v-card-actions>
