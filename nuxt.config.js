@@ -46,7 +46,7 @@ export default {
       short_name: 'Nuxt PWA',
       display: 'standalone',
       lang: 'ja',
-      start_url: '',
+      start_url: 'https://satoshi-nakao-protfolio-pwa.netlify.app/',
       icons: [
         {
           src: '/cat.ico',
