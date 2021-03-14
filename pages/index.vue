@@ -35,14 +35,10 @@
               instagram
             </a>.
           </p>
+          <p>
+            {{ new Date() | moment }}
+          </p>
          <v-spacer />
-      
-       <p>
-        <clock color="#38b508" bg="#fff" size="200px"></clock>
-       </p>
-       
-      
-         
         </v-card-text>
         <v-card-actions>
           <v-spacer />
