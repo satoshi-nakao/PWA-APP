@@ -35,9 +35,6 @@
               instagram
             </a>.
           </p>
-          <p>
-            {{ new Date() | moment }}
-          </p>
          <v-spacer />
         </v-card-text>
         <v-card-actions>
