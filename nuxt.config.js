@@ -21,7 +21,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '~/plugins/moment-filter', ssr: false },
     {src: '@/plugins/plugin',
     mode: 'client'}
   ],
@@ -39,7 +38,6 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    ['@nuxtjs/moment', ['ja']],
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
