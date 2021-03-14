@@ -35,9 +35,7 @@
               instagram
             </a>.
           </p>
-         <div class="container">
-        <clock color="#38b508" bg="#fff" size="200px"></clock>
-         </div>
+         
          
         </v-card-text>
         <v-card-actions>
@@ -50,6 +48,13 @@
             Continue
           </v-btn>
         </v-card-actions>
+      </v-card>
+      <v-card>
+        <v-card-text>
+       <div class="container">
+        <clock color="#38b508" bg="#fff" size="200px"></clock>
+         </div>
+        </v-card-text>
       </v-card>
     </v-col>
   </v-row>
@@ -74,14 +79,3 @@ export default {
 }
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 40px;
-}
-</style>
